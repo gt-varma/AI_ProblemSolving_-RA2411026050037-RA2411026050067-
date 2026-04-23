@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Smart Navigation System</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+
+<h2>🚀 Smart Navigation System</h2>
+
+<form method="POST">
+    <label>Start Node:</label>
+    <input type="text" name="start" placeholder="A" required><br><br>
+
+    <label>Goal Node:</label>
+    <input type="text" name="goal" placeholder="D" required><br><br>
+
+    <label>Edges (A-B, B-C):</label>
+    <input type="text" name="edges" placeholder="A-B, B-C, C-D" required><br><br>
+
+    <button type="submit">Find Path</button>
+</form>
+
+{% if bfs %}
+<h3>✅ BFS Path: {{ bfs }}</h3>
+{% endif %}
+
+{% if dfs %}
+<h3>🔍 DFS Path: {{ dfs }}</h3>
+{% endif %}
+
+{% if error %}
+<h3 style="color:red;">⚠️ {{ error }}</h3>
+{% endif %}
+
+</body>
+</html>
