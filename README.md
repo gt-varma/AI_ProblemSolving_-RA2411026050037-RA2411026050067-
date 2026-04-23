@@ -50,22 +50,20 @@ python app.py
 ---
 
 ### 🔹 Problem 2: Tic-Tac-Toe AI
+Input (User Moves):
 
-**Input (User Moves):**
-- User clicks positions: 0 → 4 → 8  
+User clicks positions: 0 → 4 → 8
+Output:
 
-**Output:**
-- Board updates after each move  
-- AI responds automatically with optimal moves  
+Board updates after each move
+AI responds automatically with optimal moves
+Example Final Board: X | O | X
+O | X | O
+O | X | X
 
-**Example Final Board:**
-X | O | X  
-O | X | O  
-O | X | X  
+Result:
 
-**Result:**
-- X wins (User) OR O wins (AI) OR Draw
-  
+X wins (User) OR O wins (AI) OR Draw
 ## 🌐 Note
 Project runs locally using Flask:  
 http://127.0.0.1:5000/
