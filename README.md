@@ -1,4 +1,4 @@
-AI_ProblemSolving_-RA2411026050037-RA2411026050067-
+AI_ProblemSolving_RA2411026050037_RA2411026050067-
 
 Artificial Intelligence Problem Solving Assignment 
 
