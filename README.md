@@ -1,18 +1,18 @@
-# AI_ProblemSolving_-RA2411026050037-RA2411026050067-
+AI_ProblemSolving_-RA2411026050037-RA2411026050067-
 
 Artificial Intelligence Problem Solving Assignment 
 
-# AI Problem Solving Assignment
+AI Problem Solving Assignment
 
-## 👨‍💻 Team Members
+👨‍💻 Team Members
 - Tarun Varma – RA2411026050037 
 - Revanth Reddy – RA2411026050067
 
 ---
 
-## 📌 Problems Implemented
+📌 Problems Implemented
 
-### 1. Smart Navigation System (BFS & DFS)
+1. Smart Navigation System (BFS & DFS)
 - Finds path between nodes in a graph  
 - Algorithms: BFS, DFS  
 - BFS gives shortest path; DFS may not  
@@ -23,7 +23,7 @@ python app.py
 
 ---
 
-### 2. Tic-Tac-Toe AI (Minimax)
+2. Tic-Tac-Toe AI (Minimax)
 - AI-based Tic-Tac-Toe game  
 - Algorithm: Minimax  
 - AI always plays optimal moves  
@@ -34,9 +34,9 @@ python app.py
 
 ---
 
-## 🧪 Sample Input & Output
+🧪 Sample Input & Output
 
-### 🔹 Problem 1: Smart Navigation System
+🔹 Problem 1: Smart Navigation System
 
 **Input:**
 - Start Node: A  
@@ -49,7 +49,7 @@ python app.py
 
 ---
 
-### 🔹 Problem 2: Tic-Tac-Toe AI
+🔹 Problem 2: Tic-Tac-Toe AI
 Input (User Moves):
 
 User clicks positions: 0 → 4 → 8
@@ -64,6 +64,6 @@ O | X | X
 Result:
 
 X wins (User) OR O wins (AI) OR Draw
-## 🌐 Note
+🌐 Note
 Project runs locally using Flask:  
 http://127.0.0.1:5000/
